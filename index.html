@@ -153,7 +153,7 @@
       <span class="tsep">:</span>
       <div class="tblock"><span class="tnum" id="ts">00</span><div class="tlbl">secs</div></div>
     </div>
-    <div class="eta">estimated return · may 10, 2024</div>
+    <div class="eta">estimated return · may 10, 2026</div>
   </div>
 </div>
 
@@ -203,32 +203,32 @@
     <div class="timeline">
       <div class="tl-item" id="tl-1">
         <div class="tl-dot"></div>
-        <div class="tl-date">May 7, 2024 • 12:30 PM</div>
+        <div class="tl-date">May 7, 2026 • 12:30 PM</div>
         <div class="tl-title">Migration starts</div>
         <div class="tl-desc">Snapshot taken. Old server frozen. Data transfer initiated.</div>
       </div>
       <div class="tl-item" id="tl-2">
         <div class="tl-dot"></div>
-        <div class="tl-date">May 8, 2024 • 09:00 AM</div>
+        <div class="tl-date">May 8, 2026 • 09:00 AM</div>
         <div class="tl-title">Infrastructure provisioned</div>
         <div class="tl-desc">New server environment configured, DNS pre-warmed, SSL certificates issued.</div>
       </div>
       <div class="tl-item" id="tl-3">
         <div class="tl-dot"></div>
-        <div class="tl-date">May 9, 2024 • 09:00 AM</div>
+        <div class="tl-date">May 9, 2026 • 09:00 AM</div>
         <div class="tl-title">Testing &amp; verification</div>
         <div class="tl-desc">End-to-end testing across all modules. Performance benchmarks and smoke tests.</div>
       </div>
       <div class="tl-item" id="tl-4">
         <div class="tl-dot"></div>
-        <div class="tl-date">May 10, 2024 • 12:00 AM</div>
+        <div class="tl-date">May 10, 2026 • 12:00 AM</div>
         <div class="tl-title">Go live</div>
         <div class="tl-desc">DNS switched. Priyn back online — faster, cleaner, and more stable than ever.</div>
       </div>
     </div>
   </div>
 
-  <div class="footer">© 2024 Priyn &nbsp;·&nbsp; back on may 10</div>
+  <div class="footer">© 2026 Priyn &nbsp;·&nbsp; back on may 10</div>
 </div>
 
 <!-- Scripts -->
@@ -253,7 +253,7 @@ window.addEventListener('scroll', () => {
  * Countdown Timer
  */
 (function(){
-  const end = new Date('2024-05-10T00:00:00');
+  const end = new Date('2026-05-10T00:00:00');
   function tick(){
     const diff = Math.max(0, end - Date.now());
     document.getElementById('td').textContent = String(Math.floor(diff/86400000)).padStart(2,'0');
@@ -612,10 +612,10 @@ window.addEventListener('scroll', () => {
   }));
 
   // Time thresholds for timeline and dots
-  const t1 = new Date('2024-05-07T12:30:00').getTime(); // Start
-  const t2 = new Date('2024-05-08T09:00:00').getTime(); // Infra
-  const t3 = new Date('2024-05-09T09:00:00').getTime(); // Testing
-  const t4 = new Date('2024-05-10T00:00:00').getTime(); // Go live
+  const t1 = new Date('2026-05-07T12:30:00').getTime(); // Start
+  const t2 = new Date('2026-05-08T09:00:00').getTime(); // Infra
+  const t3 = new Date('2026-05-09T09:00:00').getTime(); // Testing
+  const t4 = new Date('2026-05-10T00:00:00').getTime(); // Go live
   const totalDuration = t4 - t1;
   const compTime = totalDuration / dots.length;
 
